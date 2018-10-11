@@ -27,7 +27,7 @@ app.get('/about', (req, res) => {
 
 });
 
-app.listen(3000, () => {
+app.listen(port, () => {
     console.log('escuchando peticiones puerto 3000');
 
 });
